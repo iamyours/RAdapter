@@ -28,8 +28,10 @@ dependencies {
     compile 'com.jakewharton:butterknife:8.4.0'
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:recyclerview-v7:25.3.1'
-    annotationProcessor project(':compiler')
+//    annotationProcessor project(':radapter-compiler')
+    compile 'io.github.iamyours:radapter-lib:0.0.1'
+    annotationProcessor 'io.github.iamyours:radapter-compiler:0.0.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
 //    compile project(':compiler')
-    compile project(':lib')
+//    compile project(':radapter-lib')
 }
