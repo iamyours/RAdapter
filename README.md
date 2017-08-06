@@ -7,7 +7,7 @@ annotationProcessor 'io.github.iamyours:radapter-compiler:0.0.2'
 ```
 ## Step 2
 Create XXXViewHolder for ListView or RecyclerView
-```
+```java
 @BindLayout(R.layout.item_student)\\ for RecyclerView use @BindLayout(value = R.layout.item_student,isRecycler = true)
 public class StudentHolder extends BaseViewHolder<Student> {
     @Inject
@@ -36,7 +36,7 @@ public class StudentHolder extends BaseViewHolder<Student> {
 ```
 ## Step 3
 Create BaseViewHolder extends RViewHolder
-```
+```java
   public abstract class BaseViewHolder<T> extends RViewHolder<T> {
     @Override
     public void setRoot(View root) {
@@ -46,7 +46,7 @@ Create BaseViewHolder extends RViewHolder
 }
 ```
 ## For ListView 
-```
+```java
 public final class StudentRAdapter extends BaseAdapter {
   private Context mContext;
 
@@ -97,7 +97,7 @@ public final class StudentRAdapter extends BaseAdapter {
 }
 ```
 ## for RecyclerView
-```
+```java
   public final class StudentRAdapter extends RecyclerView.Adapter<StudentRAdapter.ViewHolder> {
   private Context mContext;
 
