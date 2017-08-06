@@ -8,7 +8,7 @@ annotationProcessor 'io.github.iamyours:radapter-compiler:0.0.2'
 ## Step 2
 Create XXXViewHolder for ListView or RecyclerView
 ```java
-@BindLayout(R.layout.item_student)\\ for RecyclerView use @BindLayout(value = R.layout.item_student,isRecycler = true)
+@BindLayout(R.layout.item_student)// for RecyclerView use @BindLayout(value = R.layout.item_student,isRecycler = true)
 public class StudentHolder extends BaseViewHolder<Student> {
     @Inject
     CallBack callBack2;
