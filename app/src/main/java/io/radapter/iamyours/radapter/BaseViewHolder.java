@@ -3,7 +3,7 @@ package io.radapter.iamyours.radapter;
 import android.view.View;
 
 import butterknife.ButterKnife;
-import io.github.iamyours.adapter.RViewHolder;
+import io.github.iamyours.radapter.RViewHolder;
 
 /**
  * Created by yanxx on 2017/7/31.

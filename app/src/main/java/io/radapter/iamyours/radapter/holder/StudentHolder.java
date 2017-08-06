@@ -4,8 +4,8 @@ import android.view.View;
 import android.widget.TextView;
 
 import butterknife.BindView;
-import io.github.iamyours.adapter.annotations.BindLayout;
-import io.github.iamyours.adapter.annotations.Inject;
+import io.github.iamyours.radapter.annotations.BindLayout;
+import io.github.iamyours.radapter.annotations.Inject;
 import io.radapter.iamyours.radapter.BaseViewHolder;
 import io.radapter.iamyours.radapter.R;
 import io.radapter.iamyours.radapter.Student;
@@ -14,7 +14,7 @@ import io.radapter.iamyours.radapter.Student;
 /**
  * Created by yanxx on 2017/7/28.
  */
-@BindLayout(value = R.layout.item_student,isRecycler = true)
+@BindLayout(value = R.layout.item_student)
 public class StudentHolder extends BaseViewHolder<Student> {
     @Inject
     CallBack callBack2;

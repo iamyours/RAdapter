@@ -1,4 +1,4 @@
-package io.github.iamyours.adapter;
+package io.github.iamyours.radapter;
 
 import android.content.Context;
 import android.view.View;

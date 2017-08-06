@@ -22,9 +22,9 @@ import javax.lang.model.type.TypeKind;
 import javax.lang.model.type.TypeMirror;
 import javax.lang.model.util.Elements;
 
-import io.github.iamyours.adapter.RViewHolder;
-import io.github.iamyours.adapter.annotations.BindLayout;
-import io.github.iamyours.adapter.annotations.Inject;
+import io.github.iamyours.radapter.RViewHolder;
+import io.github.iamyours.radapter.annotations.BindLayout;
+import io.github.iamyours.radapter.annotations.Inject;
 
 /**
  * Created by yanxx on 2017/7/28.
