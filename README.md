@@ -45,7 +45,7 @@ Create BaseViewHolder extends RViewHolder
     }
 }
 ```
-## For ListView 
+## For ListView will generate code
 ```java
 public final class StudentRAdapter extends BaseAdapter {
   private Context mContext;
@@ -96,7 +96,7 @@ public final class StudentRAdapter extends BaseAdapter {
   }
 }
 ```
-## for RecyclerView
+## For RecyclerView will generate code
 ```java
   public final class StudentRAdapter extends RecyclerView.Adapter<StudentRAdapter.ViewHolder> {
   private Context mContext;
