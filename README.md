@@ -1,5 +1,5 @@
 # RAdapter
-Auto generate ListView or RecyclerView Adapter code
+Auto generate ListView or RecyclerView Adapter Code
 ## Step 1
 ```
 compile 'io.github.iamyours:radapter-lib:0.0.2'
